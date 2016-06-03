@@ -36,29 +36,3 @@ export default class HomePage extends React.Component{
 
     }
 }
-
-ReactDOM.render((
-<Router history={hashHistory}>
-    <Route path="/" component={HomePage}>
-      <Route path="/LineOpenClass" component={LineOpenClass}/>
-      <Route path="/Training" component={Training}/>
-      <Route path="/Summit" component={Summit}/>
-      <Route path="/Other" component={Other}/>
-    </Route>
-
-</Router>
-), document.getElementById('app'))
-
-
-const Main = ({children, history}) => {
-return (
-<div>
-<nav>
-        <div history={history}/>
-      </nav>
-      <div>
-        {children}
-      </div>
-</div>
- )
-}
