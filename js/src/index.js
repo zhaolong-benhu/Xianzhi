@@ -7,7 +7,6 @@ import Xianzhi from './module/Xianzhi.js';
 
 @catch_render_error
 class MainPage extends React.Component{
-
     render(){
       return(
         <div>
@@ -15,7 +14,6 @@ class MainPage extends React.Component{
         </div>
       )
     }
-
 }
 
 ReactDOM.render(
