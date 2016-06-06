@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="home-container">
-        <div className="SearchBar">447</div>
+        <div className="SearchBar"></div>
         <div className="classification">
           <Link to="/LineOpenClass">线下公开课</Link>
           <Link to="/Training">内训</Link>
